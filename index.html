@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/skill.css">
+    <link rel="stylesheet" href="./css/form.css">
+
+    <!-- jquery cdn -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+    <script src="./main.js"></script>
+
+
+    <title>Ankit  Bisht</title>
+</head>
+<body>
+       <!-- nav bar -->
+       <nav>
+           <!-- nav con -->
+       <div class="navbar">
+        <div class="logo">Ankit Bisht</div>
+        
+        <div id="mobile-links" class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+            <span class="closeMenu">x</span>
+    
+
+        </div>
+        <div class="profile">
+            <img src="images/profile.jpg" alt="">
+        </div>
+        <a href="#" onclick="show" class="openMenu">
+            <span class="bar"></span>
+            <span class="bar"></span>           
+            <span class="bar"></span>
+        </a>
+        </div>
+    </nav>  
+    <!-- nav bar end -->
+    <!-- Main hero slider -->
+    
+ <header id="slider">
+     <h1 class="heading">There is no tommorrow</h1>
+  <ul class="slides">
+      <li class="slide"><img src="images/slider1.jpg" alt=""></li>
+      <li class="slide"><img src="images/slider2.jpg" alt=""></li>
+      <li class="slide"><img src="images/slider3.jpg" alt=""></li>
+      <li class="slide"><img src="images/slider4.jpg" alt=""></li>
+
+  </ul>
+
+ </header>   
+ <!-- for less than 720px -->
+ <section class="mobile_bg">
+     <img src="images/slider2.jpg" alt=""></section> 
+ <!-- main hero  slider end -->
+<!-- about -->
+ <article class="about">
+     <div class="about_container">
+         <h1>About Me</h1>
+         <h4>Frontend developer</h4>
+         <p>
+         Hello , My name Ankit Bisht . I am a Developer . Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis cum non provident eius, natus quia libero praesentium aliquid vitae numquam facilis quas facere nemo nam aut quasi molestias distinctio dolor.    
+         </p>
+         <p>
+            Hello , My name Ankit Bisht . I am a Developer . Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis cum non provident eius, natus quia libero praesentium aliquid vitae numquam facilis quas facere nemo nam aut quasi molestias distinctio dolor.    
+         </p>
+     </div>
+
+ </article>
+ <!-- about end -->
+        <!-- skill -->
+
+        <section class="skill">
+            <h1>skills</h1>
+            <div class="container">
+                <!-- skill box -->
+                <div class="skill_box">
+                <div class="skill_icon">
+                    <img src="images/html5.png" alt="">
+                </div>
+                    <h3>HTML 5</h3>
+                </div>
+                <!-- skill box end -->
+                  <!-- skill box -->
+                  <div class="skill_box">
+                    <div class="skill_icon">
+                        <img src="images/css.png" alt="">
+                    </div>
+                        <h3>CSS 3</h3>
+                    </div>
+                    <!-- skill box end -->
+                    <div class="skill_box">
+                        <div class="skill_icon">
+                            <img src="images/js.png" alt="">
+                        </div>
+                            <h3>Java Script</h3>
+                        </div>
+                        <!-- skill box end -->
+                      <!-- skill box -->
+                <div class="skill_box">
+                    <div class="skill_icon">
+                        <img src="images/react.png" alt="">
+                    </div>
+                        <h3>React JS</h3>
+                    </div>
+                    <!-- skill box end -->
+                      <!-- skill box -->
+                <div class="skill_box">
+                    <div class="skill_icon">
+                        <img src="images/jquery.png" alt="">
+                    </div>
+                        <h3>J Query</h3>
+                    </div>
+                    <!-- skill box end -->
+                      <!-- skill box -->
+                <div class="skill_box">
+                    <div class="skill_icon">
+                        <img src="images/scss.png" alt="">
+                    </div>
+                        <h3>SASS</h3>
+                    </div>
+                    <!-- skill box end -->
+                    <div class="skill_box">
+                        <div class="skill_icon">
+                            <img src="images/github.png" alt="">
+                        </div>
+                            <h3>Github</h3>
+                        </div>
+                        <!-- skill box end -->
+            </div>
+        </section>
+            <!-- skill end -->
+
+            <!-- form -->
+            <section class="form_section">
+                <form >
+                    <div class="row">
+                        <div class="input_grp">
+                            <input type="text" id="name" required>
+                        <label for="name">Your name</label>
+                        </div>
+                        <div class="input_grp">
+                            <input type="number" id="number" required>
+                        <label for="number">Your Phone Number</label>
+                        </div>
+                    </div>
+                    
+                    <div class="input_grp">
+                        <input type="email" id="email" required>
+                    <label for="name">Your Email Id</label>
+                    </div>
+                    <div class="input_grp">
+                    <textarea id="message" rows="8" required></textarea>   
+                 <label for="message">Your message</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                    
+                </form>
+            </section>
+            <!-- form end -->
+ 
+
+</body>
+</html>
